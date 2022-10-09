@@ -66,8 +66,15 @@ p{
     width: 50px;
     height: 50px;
     margin-top: 20px;
-
+    cursor: pointer;
 }
+
+.rating:hover{background-color: hsl(217, 12%, 63%);}
+
+.rating:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
 .submit-btn{
     background-color: hsl(25, 97%, 53%);    
     border: none;
@@ -79,6 +86,7 @@ p{
     margin-left: 10%;
     margin-top: 10%;
     height: 50px;
+    cursor: pointer;
 }
 
 .attribution{
