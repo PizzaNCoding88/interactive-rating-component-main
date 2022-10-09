@@ -9,7 +9,7 @@ body{
 }
 
 .external-container{
-    background-color: hsl(212, 22%, 15%)
+    background-color: hsl(212, 22%, 15%);
     height: 55vh;
     width: 90vw;
     border-radius: 15px;
@@ -85,7 +85,7 @@ p{
     margin-top: 20px;
 }
 
-.hidden{
+.hide{
     display: none;
 }
 
