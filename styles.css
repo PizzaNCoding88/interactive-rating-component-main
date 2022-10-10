@@ -44,10 +44,11 @@ h1{
 }
 
 p{
-    font-size: Overpass;
+    font-size: 13px;
+    font-family: Overpass;
     color: hsl(217, 12%, 63%);
     margin-left: 20px;
-    margin-right: 25px;
+    margin-right: 20px;
     line-height: 20px;
     margin-top: -5px;
 }
@@ -165,7 +166,5 @@ p{
 }
 
 @media (min-width: 375px){
-    body{
-        
-    }
+    
 }
