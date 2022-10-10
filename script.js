@@ -8,11 +8,19 @@ const selectedValue = document.querySelector(".selection-text")
 
 let selection = "";
 
-ratingBtn.forEach((btn,index) => {
-    btn.addEventListener("click", function(){
-        selection = index+1;
-    })
-})
+//ALTERNATIVE METHOD WITH FOREACH
+
+// ratingBtn.forEach((btn,index) => {
+//     btn.addEventListener("click", function(){
+//         selection = index+1;
+//     })
+// })
+
+for(let i=0; i<ratingBtn.length; i++){
+    ratingBtn[i].addEventListener("click", function(){
+        selection = i+1;
+    });
+};
 
 submitBtn.addEventListener("click" , function(){
     // console.log(selection);
