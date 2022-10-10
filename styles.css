@@ -9,7 +9,7 @@ body{
 }
 
 .external-container{
-    background-color: hsl(212, 22%, 15%);
+    background-image: linear-gradient(to bottom, hsl(212, 22%, 15%), hsl(225, 7%, 11%));
     height: 55vh;
     width: 90vw;
     border-radius: 15px;
@@ -96,6 +96,7 @@ p{
 
 .attribution{
     margin-top: 20px;
+    color: white;
 }
 
 .hide{
@@ -161,4 +162,10 @@ p{
 .thank-you-message{
     text-align: center;
     line-height: 20px;
+}
+
+@media (min-width: 375px){
+    body{
+        
+    }
 }
