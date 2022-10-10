@@ -23,9 +23,13 @@ for(let i=0; i<ratingBtn.length; i++){
 };
 
 submitBtn.addEventListener("click" , function(){
-    // console.log(selection);
+    if(selection == ""){
+        alert("You must select a rating")
+    }
+    else{
     extContainer.classList.add("hide");
     thanksDiv.classList.remove("hide");
     selectedValue.innerHTML = selection;
+    }
 });
 
